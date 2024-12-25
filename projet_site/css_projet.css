@@ -1,0 +1,494 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+    font-size: 16px;
+}
+header {
+    width:100%;/*cette propriétés permet de mettre la largeur à 100% */
+    position : fixed; /* Cette propriété permet  fixer cette boîte même si on défile */
+    padding: 0px ;
+    background-color: white;
+    overflow : hidden;  /* pour forcer le contenaire header a prendre la taille des elements À  linterieur qui depasse */
+}
+.blanc {
+        padding:90px;
+        width:100%;
+
+}
+/*------------------Le style  de notre logo -------------------------*/
+#logo {
+        float : left ;
+        margin-right:10%
+        background-image: #959;
+        padding:0px 0px 0px 0px;/* bordure      haut  droite    bas gauche                de notre image */
+}
+nav ul {
+    display: flex;               /* Utilisation de Flexbox pour l'alignement horizontal */
+    justify-content: flex-end;   /* Alignement des éléments à droite */
+    list-style-type: none;       /* Suppression des puces de liste */
+    padding: 70px;                  /* POR METTRE NOS AU MILIEU HORIZONTALE DE NOTRE IMAGE  */
+    margin: 0;                   /* Suppression du margin par défaut */
+}
+
+nav li {
+    margin-top: 10px;
+    margin-right: 30px;          /* Espacement entre les éléments de la liste */
+}
+
+li:last-child {
+    margin-right: 0;             /* Suppression de la marge pour le dernier élément */
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.ele_flottant{
+        position:fixed;
+        text-align:center;
+        font-size : 14px;
+        float:right;
+        padding:60px 20px 60px 20px;  ;
+        background-color: black;
+        color:white;
+        margin-left: 96%;
+        writing-mode: vertical-rl;
+            text-orientation: mixed;
+
+}
+.ele_flottant a {
+        color:white;
+        text-decoration:none;
+
+}
+.cla1 {
+    font-size:50px; /* la taille du text */
+    font-weight:bold; /* le poid du text */
+    width : 100% ; /* largeur du conteneur */
+    background-color : #333;
+    color : white;
+    margin-top: 0px;
+    letter-spacing: 1px;/* L'espacement entre les lettres */
+    word-spacing:-5px;/* L'espacement entre les les mots */
+    padding:25px;
+    text-align : center ;/* Alignement des textes */
+}
+.rouge{
+    background-color: #8B0000 ;
+    padding:60px;
+    width:100%;
+}
+.noir{
+    background-color: #000 ;
+    padding-bottom:250px;
+    width:100%;
+}
+/*-------------------------------Style de notre  en tête de notre section */
+.titre_section{
+    position:absolute;
+    margin-top : 220px;
+    margin-left: 300px;
+    text-weight:bold;
+}
+/*------------------------style de notre premiere section  -----------------*/
+.section1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Grille de 3 colonnes */
+    gap: 20px; /* Espacement entre les éléments */
+    padding: 20px;
+    margin: 300px;
+}
+
+.sect1 {
+    list-style-type: none; /* Suppression des puces de liste */
+    padding: 0;
+    margin: 0;
+    display: contents; /* Permet de conserver la grille sur les <li> directement */
+}
+
+.sect1 li {
+    display: flex; /* Utilisation de Flexbox pour uniformiser la largeur des boutons */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    text-align: center; /* Centrer le texte */
+    margin-bottom: 10px; /* Espacement entre les éléments */
+    padding:0px;
+}
+
+.sect1 li a {
+     display: block;
+    width: 100%; /* Prendre toute la largeur de la colonne */
+    padding: 50px;
+
+    color: black;
+    text-decoration: none; /* Suppression de la décoration de lien */
+    border: 1px solid black ; /* Coins arrondis */
+    transition: background-color 0.3s; /* Transition pour l'effet de survol */
+}
+.sect1 li a:hover {
+     background-color: #444; /* Couleur de fond des boutons */
+      padding: 50px;
+      color : white;
+}
+/*----------------------------style de main00 comme class ---------------*/
+.main00 h1{
+    margin-left: 100px;
+}
+/*-----------------------Si style de notre section 2 ------------------------------------*/
+.section2{
+        padding:0px ;
+         margin: 50px ;
+
+}
+.section2 li {
+    list-style-type:none;
+}
+.section2 .ul1_set2 >li {
+       float: left ;
+       padding-right:100px;
+
+
+}
+.div1_section2{
+    padding-top : 200px;
+}
+
+.section2 .ul2_set2 >li {
+       float: left ;
+       padding-right:150px;
+
+}
+.div2_section2{
+    padding-top : 100px;
+}
+.section2 .ul3_set2 >li {
+       float: left ;
+       padding-right:250px;
+
+}
+.section2  .a_sect2 {
+        text-decoration: none;
+        padding:20px;
+        border: 1px solid black ;
+}
+.a2_sect2{
+        text-decoration: none;}
+.section2 a:hover {
+    background-color: #222;
+    color: white;
+}
+
+.section2 .message_sect2{
+    font-size:11px;
+}
+.RH_sect2{
+    font-size:25px;
+}
+/*-----------------------Si style de notre section 3 ------------------------------------*/
+.section3{
+        padding:0px ;
+         margin: 50px ;
+
+}
+.section3 li {
+    list-style-type:none;
+}
+.section3 .ul1_set3 >li {
+       float: left ;
+       padding-right:100px;
+
+
+}
+.div1_section3{
+    padding-top : 200px;
+}
+
+.section3 .ul2_set3 >li {
+       float: left ;
+       padding-right:150px;
+
+}
+.div2_section3{
+    padding-top : 100px;
+}
+.section3 .ul3_set3 >li {
+       float: left ;
+       padding-right:250px;
+
+}
+.section3  .a_sect3 {
+        text-decoration: none;
+        padding:20px;
+        border: 1px solid black ;
+}
+.a2_sect3{
+        text-decoration: none;}
+.section3 a:hover {
+    background-color: #222;
+    color: white;
+}
+
+.section3 .message_sect3{
+    font-size:11px;
+}
+.conseil_sect3{
+    font-size:25px;
+}
+
+/*-----------------------Si style de notre section 4 ------------------------------------*/
+.section4{
+        padding:0px ;
+         margin: 50px ;
+
+}
+.section4 li {
+    list-style-type:none;
+}
+.section4 .ul1_set4 >li {
+       float: left ;
+       padding-right:100px;
+
+
+}
+.div1_section4 {
+    padding-top : 200px;
+}
+
+.section4 .ul2_set4 >li {
+       float: left ;
+       padding-right:150px;
+
+}
+.div2_section4{
+    padding-top : 100px;
+}
+.section4 .ul3_set4 >li {
+       float: left ;
+       padding-right:250px;
+
+}
+.section4  .a_sect4 {
+        text-decoration: none;
+        padding:20px;
+        border: 1px solid black ;
+}
+.a2_sect4{
+        text-decoration: none;}
+.section4 a:hover {
+    background-color: #222;
+    color: white;
+}
+
+.section4 .message_sect4{
+    font-size:11px;
+}
+.conseil_sect4{
+    font-size:25px;
+}
+/*-----------------------Si style de notre section 5 ------------------------------------*/
+.section5{
+        padding:0px ;
+         margin: 50px ;
+
+}
+.section5  li {
+    list-style-type:none;
+}
+.section5  .ul1_set5  >li {
+       float: left ;
+       padding-right:100px;
+
+
+}
+.div1_section5 {
+    padding-top : 200px;
+}
+
+.section5 .ul2_set5  >li {
+       float: left ;
+       padding-right:150px;
+
+}
+.div2_section5 {
+    padding-top : 100px;
+}
+.section5  .ul3_set5 >li {
+       float: left ;
+       padding-right:250px;
+
+}
+.section5   .a_sect5 {
+        text-decoration: none;
+        padding:20px;
+        border: 1px solid black ;
+}
+.a2_sect5{
+        text-decoration: none;}
+.section5   a:hover {
+    background-color: #222;
+    color: white;
+}
+
+.section5 .message_sect5{
+    font-size:11px;
+}
+.conseil_sect5{
+    font-size:25px;
+}
+
+/*-----------------------Si style de notre section 6 ------------------------------------*/
+.section6{
+        padding:0px ;
+         margin: 50px ;
+
+}
+.section6 li {
+    list-style-type:none;
+}
+.section6 .ul1_set6 >li {
+       float: left ;
+       padding-right:100px;
+
+
+}
+.div1_section6{
+    padding-top : 200px;
+}
+
+.section6 .ul2_set6 >li {
+       float: left ;
+       padding-right:150px;
+
+}
+.div2_section6{
+    padding-top : 100px;
+}
+.section6 .ul3_set6 >li {
+       float: left ;
+       padding-right:250px;
+
+}
+.section6  .a_sect6 {
+        text-decoration: none;
+        padding:20px;
+        border: 1px solid black ;
+}
+.a2_sect6{
+        text-decoration: none;}
+.section6 a:hover {
+    background-color: #222;
+    color: white;
+}
+
+.section6 .message_sect6{
+    font-size:11px;
+}
+.conseil_sect6{
+    font-size:25px;
+}
+/*----------------------------------------------------style de section8-----------*/
+.section7 > div {
+        text-align: center ;
+        padding-top : 80px;
+        padding-bottom: 500px ;
+        background-color: #8B0000 ;
+        color : white ;
+        font-size :35px;
+        text-weight: bold;
+
+}
+/*----------------------------------------------------style de section8-----------*/
+.section8  > h2 {
+
+        text-align: center;
+
+}
+.section8 ul{
+       padding-top :100px;
+}
+.section8 ul li {
+        list-style-type: none ;
+        display: inline;
+        padding:80px;
+
+}
+.section8 ul li a {
+font-size: 20px ;
+        text-decoration : none ;
+}
+.section8 ul li a:link {
+    color : gray;
+}
+.section8 ul li a:hover{
+    color : green;
+}
+/*----------------------------------------------------style de section9-------------------------------------------------*/
+.section9 {
+        background-color:black;
+        padding:20px 10px 15px 200px;
+        overflow:hidden;
+}
+.section9 a {
+        text-decoration : none;
+        font-weight: bold;
+        color : gray;
+        text-weight:normal;
+}
+.section9  li {
+    list-style-type:none;
+    color:white;
+}
+/*--------------------- UL 2 ////********************************/
+
+.section9 .ul1_sect9 li  {
+        display: inline;
+
+
+}
+
+.section9 .li2_ul1_sect9{
+        padding-left:450px;
+}
+.section9 .li3_ul1_sect9{
+        padding-left:800px;
+        position: absolute:
+}
+/*--------------------- UL 2 ////********************************/
+.section9 .ul2_sect9 li  {
+        display: inline;
+        padding-right: 50px;
+}
+.section9 .li2_ul2_sect9{
+        padding-left:260px;
+}
+.section9 .li3_ul2_sect9{
+        padding-left : 900px;
+}
+/*---------------------  UL3 ////********************************/
+.section9 .li1_ul3_sect9{
+    padding-left : 520px;
+    list-style-type: none ;
+
+}
+
+/************************** UL4 ////************************************ */
+
+.section9 .ul4_sect9  .li2_ul4_sect9 {
+        padding-left : 520px;
+
+}
+
+.section9 .ul4_sect9  .li4_ul4_sect9 {
+        padding-left : 520px;
+
+}
+.section9 .ul4_sect9  .li5_ul4_sect9 {
+        padding-left : 520px;
+
+}
+.section9 .ul4_sect9  .li6_ul4_sect9 {
+        padding-left : 520px;
+
+}
+.section9 .ul4_sect9  .li8_ul4_sect9 {
+        padding-left : 520px;
+
+}
+

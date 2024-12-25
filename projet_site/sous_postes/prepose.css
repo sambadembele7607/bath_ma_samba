@@ -1,0 +1,183 @@
+.titre1{
+        text-weight : bold ;
+        font-size : 90px;
+/*-----------------------------------------------------------*/
+.para  {
+           color : white;
+}
+}
+.section1 .ul1_sect1 >li {
+        float : left ;
+        list-style-type : none;
+            border-top-left-radius : 20px ;
+            border-bottom-right-radius : 20px ;
+
+}
+.section1 .li1_li1_ul1_sect1 {
+    line-height: 35px;
+    padding: 40px;
+    margin:20px;
+    background-color: #555;
+    padding-bottom : 100px
+    border-radius : 20px ;
+}
+ .h1_li1_li1_ul1_sect1{
+        font-size: 50px ;
+        color : white;
+
+}
+
+.section1 .li1_li2_ul1_sect1{
+        padding: 80px;
+        background-color: #999;
+        padding-bottom : 80px
+
+
+}
+.h1_li1_li2_ul1_sect1{
+        font-size: 50px ;
+         color : white;
+}
+/*------------------------------------style du formulaire ---------------------------------------------------------------------------*/
+
+.div_li2_ul1_sect1 {
+    background-color: #777;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 16px ;
+    border-radius :10px ;
+}
+
+.application-form {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+.application-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.application-form label {
+    margin-top: 10px;
+}
+
+.application-form input, .application-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.application-form button {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #555;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.application-form button:hover {
+    background-color: #999;
+}
+/*-----------------------------------------------------------------------------------------------------------------*/
+.space_set1_set2{
+        clear : both ;
+        padding: 20px ;
+}
+
+
+.section2
+{
+    margin-left : 50px;
+}
+
+
+/*<!--/*---------------------------style de notre  section9 -----------------------------------*/
+
+
+
+
+.section9 {
+
+
+        background-color:black;
+        padding:20px 10px 15px 200px;
+        overflow:hidden;
+}
+.section9 a {
+        text-decoration : none;
+        font-weight: bold;
+        color : gray;
+        text-weight:normal;
+}
+.section9  li {
+    list-style-type:none;
+    color:white;
+}
+/*--------------------- UL 2 ////********************************/
+
+.section9 .ul1_sect9 li  {
+        display: inline;
+
+
+}
+
+.section9 .li2_ul1_sect9{
+        padding-left:450px;
+}
+.section9 .li3_ul1_sect9{
+        padding-left:800px;
+        position: absolute:
+}
+/*--------------------- UL 2 ////********************************/
+.section9 .ul2_sect9 li  {
+        display: inline;
+        padding-right: 50px;
+}
+.section9 .li2_ul2_sect9{
+        padding-left:260px;
+}
+.section9 .li3_ul2_sect9{
+        padding-left : 900px;
+}
+/*---------------------  UL3 ////********************************/
+.section9 .li1_ul3_sect9{
+    padding-left : 520px;
+    list-style-type: none ;
+
+}
+
+/************************** UL4 ////************************************ */
+
+.section9 .ul4_sect9  .li2_ul4_sect9 {
+        padding-left : 520px;
+
+}
+
+.section9 .ul4_sect9  .li4_ul4_sect9 {
+        padding-left : 520px;
+
+}
+.section9 .ul4_sect9  .li5_ul4_sect9 {
+        padding-left : 520px;
+
+}
+.section9 .ul4_sect9  .li6_ul4_sect9 {
+        padding-left : 520px;
+
+}
+.section9 .ul4_sect9  .li8_ul4_sect9 {
+        padding-left : 520px;
+
+}
+
